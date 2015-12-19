@@ -1,0 +1,56 @@
+body {
+	margin: 0;
+	color: #242628;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+a {
+	color: #5Ba4e5;
+}
+
+.header {
+	width: 100%;
+	padding: 10px 0;
+	border-bottom: 1px solid #868c92;
+	background-color: #eee;
+	height: 31px;
+	position: fixed;
+	top: 0;
+}
+
+#controls {
+	display: none;
+}
+
+#loading {
+	text-align: center;
+	font-size: 25px;
+}
+
+#controls .column {
+	text-align: center;
+	width: 31%;
+	padding: 0 1%;
+	float: left;
+}
+
+#output {
+	margin: 20px;
+	margin-top: 80px;
+}
+
+hr {
+	border: none;
+	border-top: 1px solid #868c92;
+}
+
+#output input[type="text"] {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 6px;
+	border: 1px solid #868c92;
+}
+
+small {
+	color: #868C92;
+}

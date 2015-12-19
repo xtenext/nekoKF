@@ -1,0 +1,134 @@
+？？？
+81 48 81 48 81 48
+? ? ?
+
+アリステラ
+83 41 83 8a 83 58 83 65 83 89
+Aristella
+
+ドロワット
+83 68 83 8d 83 8f 83 62 83 67
+Dorowatto
+
+衛兵Ａ
+89 71 95 ba 82 60
+Guard A
+
+衛兵Ｂ
+89 71 95 ba 82 61
+Guard B
+
+衛兵Ｃ
+89 71 95 ba 82 62
+Guard C
+
+衛兵Ｄ
+89 71 95 ba 82 63
+Guard D
+
+アイシス
+83 41 83 43 83 56 83 58
+Isis
+
+リュート
+83 8a 83 85 81 5b 83 67
+Lute
+
+モテール
+83 82 83 65 81 5b 83 8b
+Motel
+
+王都の女Ａ
+89 a4 93 73 82 cc 8f 97 82 60
+Noblewoman A
+
+王都の女Ｂ
+89 a4 93 73 82 cc 8f 97 82 61
+Noblewoman B
+
+王都の女Ｃ
+89 a4 93 73 82 cc 8f 97 82 62
+Noblewoman C
+
+王都の女Ｄ
+89 a4 93 73 82 cc 8f 97 82 63
+Noblewoman D
+
+宰相ベルンシュタイン
+8d c9 91 8a 83 78 83 8b 83 93 83 56 83 85 83 5e 83 43 83 93
+Prime Minister Bernstein
+
+ボボン王子
+83 7b 83 7b 83 93 89 a4 8e 71
+Prince Bobon
+
+フェルゼン
+83 74 83 46 83 8b 83 5b 83 93
+Sir Fersen
+
+シュラム
+83 56 83 85 83 89 83 80
+Sir Schramm
+
+ザント
+83 55 83 93 83 67
+Sir Zandt
+
+眼鏡の女
+8a e1 8b be 82 cc 8f 97
+Woman
+
+アーボイン
+83 41 81 5b 83 7b 83 43 83 93
+Aboin
+
+マドワーズ
+83 7d 83 68 83 8f 81 5b 83 59
+Madwords
+
+ロクサーヌ
+83 8d 83 4e 83 54 81 5b 83 6b
+Roxanne
+
+守備兵
+8e e7 94 f5 95 ba
+Soldier
+
+守備兵Ａ
+8E E7 94 F5 95 BA 82 60
+Soldier A
+
+
+守備兵Ｂ
+8E E7 94 F5 95 BA 82 61
+Soldier B
+
+
+守備兵Ｃ
+8E E7 94 F5 95 BA 82 62
+Soldier C
+
+
+守備兵Ｄ
+8E E7 94 F5 95 BA 82 63
+Soldier D
+
+
+村人Ａ
+91 BA 90 6C 82 60
+Villager A
+
+
+村人Ｂ
+91 BA 90 6C 82 61
+Villager B
+
+
+村人Ｃ
+91 BA 90 6C 82 62
+Villager C
+
+
+村人Ｄ
+91 BA 90 6C 82 63
+Villager D

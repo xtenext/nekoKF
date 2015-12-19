@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+
+<div id="controls" class="header">
+	<div class="column">
+		<input type="file" id="file">
+	</div>
+	<small class="column"><span id="version"></span><br>If you find bugs/want features, let me know
+	<a href="http://www.hongfire.com/forum/showthread.php/425481-WAFFLE-091023-111216-Kyonyuu-Fantasy-%E5%B7%A8%E4%B9%B3%E3%83%95%E3%82%A1%E3%83%B3%E3%82%BF%E3%82%B8%E3%83%BC-English-Patch">here</a></small>
+	<div class="column">
+		<input id="filename" placeholder="Type Filename Here" type="text">
+		<button id="save">Save</button>
+	</div>
+</div>
+
+<div id="loading" class="header">
+Loading....
+</div>
+
+<div id="output"></div>
+<script src="FileSaver.min.js"></script>
+<script src="neko.min.js"></script>
+<script src="neko.dictionary.min.js"></script>
+<script>
+
+neko.filter.add('5b 83 65 83 4c 83 58 83 67 95 5c 8e a6 5d 20', false, 'Start Block');
+voice = neko.filter.add('76 6f 69 63 65 5c', false, 'Voice Block');
+
+replace = {
+
+'？？？' : '???',
+'アリステラ' : 'Aristella',
+'ドロワット' : 'Dorowatto',
+'衛兵Ａ' : 'Guard A',
+'衛兵Ｂ' : 'Guard B',
+'衛兵Ｃ' : 'Guard C',
+'衛兵Ｄ' : 'Guard D',
+'アイシス' : 'Isis',
+'リュート' : 'Lute',
+'モテール' : 'Motel',
+'王都の女Ａ' : 'Noblewoman A',
+'王都の女Ｂ' : 'Noblewoman B',
+'王都の女Ｃ' : 'Noblewoman C',
+'王都の女Ｄ' : 'Noblewoman D',
+'宰相ベルンシュタイン' : 'Prime Minister Bernstein',
+'ボボン王子' : 'Prince Bobon',
+'フェルゼン' : 'Sir Fersen',
+'シュラム' : 'Sir Schramm',
+'ザント' : 'Sir Zandt',
+'眼鏡の女' : 'Woman',
+'アーボイン' : 'Governor Aboin',
+'マドワーズ' : 'Madwords',
+'ロクサーヌ' : 'Roxanne',
+'守備兵' : 'Soldier',
+'守備兵Ａ' : 'Soldier A',
+'守備兵Ｂ' : 'Soldier B',
+'守備兵Ｃ' : 'Soldier C',
+'守備兵Ｄ' : 'Soldier D',
+'村人Ａ' : 'Villager A',
+'村人Ｂ' : 'Villager B',
+'村人Ｃ' : 'Villager C',
+'村人Ｄ' : 'Villager D',
+'Aboin' : 'Governor Aboin'
+
+}
+
+for (var key in replace) {
+	//FOR GAIDAN
+	//neko.replace.add(' '+key+' ', replace[key]);
+	//FOR HD
+	neko.replace.add(key, replace[key]);
+}
+
+neko.init();
+
+document.getElementById('loading').style.display = 'none';
+document.getElementById('controls').style.display = 'block';
+
+</script>
+
+</body>
+</html>
