@@ -5,6 +5,9 @@ neko.parse = function(ia) {
 		garbageEnd;
 
 	while (offset < ia.length) {
+		//note this format of ia[offset] === ... && neko.helper.compare(...
+		//This avoids doing the compare operation if the first hex doesn't match.
+		//We do this because the compare operation is expensive.
 		if (ia[offset] === 91 && neko.helper.compare(ia.subarray(offset, offset+15),'911311011317613188131103149921421669332')) {
 			//collect garbage
 			offset -= 4;

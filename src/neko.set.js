@@ -1,3 +1,4 @@
+//used to mark peices of the data as garbage or actual parts we want to hold on to.
 neko.set = {
 	part: function(ia, offset) {
 		var length = neko.helper.getLengthFromWord(ia.subarray(offset, offset+4)),
@@ -6,7 +7,7 @@ neko.set = {
 			length: length,
 			changed: false,
 			garbage: false,
-			important: length > 1 && neko.filter(data),
+			important: length > 1 && neko.filter(data), //determines if the peice is rendered. It must be longer than one hex value and must pass all filters
 			data: data
 		}
 	},

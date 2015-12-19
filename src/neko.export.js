@@ -1,4 +1,5 @@
-neko.exportScript = function(filename) {
+//this module was supposed to generate a human-readable script file to be used in a group-translation thing. It's unused and unfinished
+neko.exportScript = function(filename) { 
 	var output = '', hex;
 
 	if (!neko.output.parsedData) return;
